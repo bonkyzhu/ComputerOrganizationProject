@@ -1,0 +1,126 @@
+$date
+	Fri Dec 27 09:35:02 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module rs_tb $end
+$var wire 1 ! qb $end
+$var wire 1 " q $end
+$var reg 1 # CLOCK_50 $end
+$var reg 1 $ r $end
+$var reg 1 % s $end
+$var integer 32 & high [31:0] $end
+$var integer 32 ' low [31:0] $end
+$scope module rs0 $end
+$var wire 1 # clk $end
+$var wire 1 % r $end
+$var wire 1 $ s $end
+$var wire 1 ( sd $end
+$var wire 1 ) rd $end
+$var wire 1 ! qb $end
+$var wire 1 " q $end
+$scope module g1 $end
+$var wire 1 " b $end
+$var wire 1 ( a $end
+$var reg 1 ! c $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 ! b $end
+$var wire 1 ) a $end
+$var reg 1 " c $end
+$upscope $end
+$scope module rd1 $end
+$var wire 1 % a $end
+$var wire 1 # b $end
+$var reg 1 ) c $end
+$upscope $end
+$scope module sd1 $end
+$var wire 1 $ a $end
+$var wire 1 # b $end
+$var reg 1 ( c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x)
+x(
+b0 '
+b1 &
+x%
+x$
+0#
+x"
+x!
+$end
+#10000
+0)
+0(
+1#
+#20000
+1!
+0"
+1)
+0(
+1$
+0%
+0#
+#30000
+0)
+0$
+1#
+#40000
+1"
+0!
+0)
+1(
+1%
+0#
+#50000
+0(
+1$
+1#
+#60000
+1!
+0"
+1)
+0%
+0#
+#70000
+0)
+0$
+1#
+#80000
+1"
+0!
+0)
+1(
+1%
+0#
+#90000
+0(
+1$
+1#
+#100000
+1!
+0"
+1)
+0%
+0#
+#110000
+0)
+1%
+1#
+#120000
+0!
+1(
+1)
+0$
+0%
+0#
+#130000
